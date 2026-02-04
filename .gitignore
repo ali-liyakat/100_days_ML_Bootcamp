@@ -56,9 +56,50 @@ cover/
 *.pot
 
 
-# Data Files
-.csv
+# Data folders
+data/
+dataset/
+datasets/
 
+# Data formats
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.feather
+*.hdf5
+*.h5
+*.zip
+*.tar
+*.gz
+
+# Images / audio / video data
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.wav
+*.mp3
+*.mp4
+*.avi
+
+# Model folders
+models/
+checkpoints/
+
+# Model formats
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.pkl
+
+# Numpy / temp
+*.npy
+*.npz
 
 # Django stuff:
 *.log
