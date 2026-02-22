@@ -86,6 +86,8 @@ datasets/
 *.mp4
 *.avi
 
+iframe_figures/
+.html
 # Model folders
 models/
 checkpoints/
